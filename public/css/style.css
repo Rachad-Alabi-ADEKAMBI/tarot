@@ -1,22 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
-@keyframes card {
-  0% {
-    opacity: 0.1;
-  }
-  33% {
-    opacity: 0.3;
-  }
-  66% {
-    opacity: 0.6;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 /*form*/
 .form {
-  background-color: aliceblue;
+  background-image: url("https://images.unsplash.com/photo-1522033467113-b8db23657b96?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1534&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  font-weight: bold;
   width: 330px;
   margin: 10px auto;
   border: 1px black solid;
@@ -87,6 +77,9 @@
   right: 25px;
   border: 1px solid black;
   cursor: pointer;
+  color: white;
+  border-radius: 5px;
+  background-color: red;
 }
 
 * {
@@ -172,7 +165,7 @@ html, body {
 }
 
 .container .header__main__cards img:hover {
-  opacity: 0.3;
+  transform: rotateY(180deg);
 }
 
 .container .header__main__button {
